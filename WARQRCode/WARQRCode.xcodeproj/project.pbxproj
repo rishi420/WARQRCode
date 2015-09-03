@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE18B971B98779900A28366 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE18B961B98779900A28366 /* main.m */; };
+		BCE18B9A1B98779900A28366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE18B991B98779900A28366 /* AppDelegate.m */; };
+		BCE18B9D1B98779900A28366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE18B9C1B98779900A28366 /* ViewController.m */; };
+		BCE18BA01B98779900A28366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE18B9E1B98779900A28366 /* Main.storyboard */; };
+		BCE18BA21B98779900A28366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE18BA11B98779900A28366 /* Images.xcassets */; };
+		BCE18BA51B98779900A28366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE18BA31B98779900A28366 /* LaunchScreen.xib */; };
+		BCE18BB11B98779A00A28366 /* WARQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE18BB01B98779A00A28366 /* WARQRCodeTests.m */; };
+		BCE18BBC1B98799D00A28366 /* WARQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE18BBB1B98799D00A28366 /* WARQRCodeViewController.m */; };
+		BCE18BC21B987AF500A28366 /* WARQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE18BC11B987AF500A28366 /* WARQRView.m */; };
+		BCE18BC41B988FB500A28366 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCE18BC31B988FB500A28366 /* beep.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE18BAB1B98779A00A28366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE18B891B98779900A28366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE18B901B98779900A28366;
+			remoteInfo = WARQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE18B911B98779900A28366 /* WARQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WARQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE18B951B98779900A28366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE18B961B98779900A28366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCE18B981B98779900A28366 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCE18B991B98779900A28366 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCE18B9B1B98779900A28366 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCE18B9C1B98779900A28366 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCE18B9F1B98779900A28366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCE18BA11B98779900A28366 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCE18BA41B98779900A28366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCE18BAA1B98779A00A28366 /* WARQRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WARQRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE18BAF1B98779A00A28366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE18BB01B98779A00A28366 /* WARQRCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WARQRCodeTests.m; sourceTree = "<group>"; };
+		BCE18BBA1B98799D00A28366 /* WARQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WARQRCodeViewController.h; sourceTree = "<group>"; };
+		BCE18BBB1B98799D00A28366 /* WARQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WARQRCodeViewController.m; sourceTree = "<group>"; };
+		BCE18BC01B987AF500A28366 /* WARQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WARQRView.h; sourceTree = "<group>"; };
+		BCE18BC11B987AF500A28366 /* WARQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WARQRView.m; sourceTree = "<group>"; };
+		BCE18BC31B988FB500A28366 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE18B8E1B98779900A28366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE18BA71B98779A00A28366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE18B881B98779900A28366 = {
+			isa = PBXGroup;
+			children = (
+				BCE18B931B98779900A28366 /* WARQRCode */,
+				BCE18BAD1B98779A00A28366 /* WARQRCodeTests */,
+				BCE18B921B98779900A28366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE18B921B98779900A28366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE18B911B98779900A28366 /* WARQRCode.app */,
+				BCE18BAA1B98779A00A28366 /* WARQRCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE18B931B98779900A28366 /* WARQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				BCE18B981B98779900A28366 /* AppDelegate.h */,
+				BCE18B991B98779900A28366 /* AppDelegate.m */,
+				BCE18B9B1B98779900A28366 /* ViewController.h */,
+				BCE18B9C1B98779900A28366 /* ViewController.m */,
+				BCE18BBA1B98799D00A28366 /* WARQRCodeViewController.h */,
+				BCE18BBB1B98799D00A28366 /* WARQRCodeViewController.m */,
+				BCE18BC01B987AF500A28366 /* WARQRView.h */,
+				BCE18BC11B987AF500A28366 /* WARQRView.m */,
+				BCE18B9E1B98779900A28366 /* Main.storyboard */,
+				BCE18BA11B98779900A28366 /* Images.xcassets */,
+				BCE18BC31B988FB500A28366 /* beep.mp3 */,
+				BCE18BA31B98779900A28366 /* LaunchScreen.xib */,
+				BCE18B941B98779900A28366 /* Supporting Files */,
+			);
+			path = WARQRCode;
+			sourceTree = "<group>";
+		};
+		BCE18B941B98779900A28366 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE18B951B98779900A28366 /* Info.plist */,
+				BCE18B961B98779900A28366 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCE18BAD1B98779A00A28366 /* WARQRCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE18BB01B98779A00A28366 /* WARQRCodeTests.m */,
+				BCE18BAE1B98779A00A28366 /* Supporting Files */,
+			);
+			path = WARQRCodeTests;
+			sourceTree = "<group>";
+		};
+		BCE18BAE1B98779A00A28366 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE18BAF1B98779A00A28366 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE18B901B98779900A28366 /* WARQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE18BB41B98779A00A28366 /* Build configuration list for PBXNativeTarget "WARQRCode" */;
+			buildPhases = (
+				BCE18B8D1B98779900A28366 /* Sources */,
+				BCE18B8E1B98779900A28366 /* Frameworks */,
+				BCE18B8F1B98779900A28366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WARQRCode;
+			productName = WARQRCode;
+			productReference = BCE18B911B98779900A28366 /* WARQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE18BA91B98779A00A28366 /* WARQRCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE18BB71B98779A00A28366 /* Build configuration list for PBXNativeTarget "WARQRCodeTests" */;
+			buildPhases = (
+				BCE18BA61B98779A00A28366 /* Sources */,
+				BCE18BA71B98779A00A28366 /* Frameworks */,
+				BCE18BA81B98779A00A28366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE18BAC1B98779A00A28366 /* PBXTargetDependency */,
+			);
+			name = WARQRCodeTests;
+			productName = WARQRCodeTests;
+			productReference = BCE18BAA1B98779A00A28366 /* WARQRCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE18B891B98779900A28366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = war;
+				TargetAttributes = {
+					BCE18B901B98779900A28366 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BCE18BA91B98779A00A28366 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = BCE18B901B98779900A28366;
+					};
+				};
+			};
+			buildConfigurationList = BCE18B8C1B98779900A28366 /* Build configuration list for PBXProject "WARQRCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE18B881B98779900A28366;
+			productRefGroup = BCE18B921B98779900A28366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE18B901B98779900A28366 /* WARQRCode */,
+				BCE18BA91B98779A00A28366 /* WARQRCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE18B8F1B98779900A28366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE18BA01B98779900A28366 /* Main.storyboard in Resources */,
+				BCE18BA51B98779900A28366 /* LaunchScreen.xib in Resources */,
+				BCE18BC41B988FB500A28366 /* beep.mp3 in Resources */,
+				BCE18BA21B98779900A28366 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE18BA81B98779A00A28366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE18B8D1B98779900A28366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE18B9D1B98779900A28366 /* ViewController.m in Sources */,
+				BCE18B9A1B98779900A28366 /* AppDelegate.m in Sources */,
+				BCE18B971B98779900A28366 /* main.m in Sources */,
+				BCE18BBC1B98799D00A28366 /* WARQRCodeViewController.m in Sources */,
+				BCE18BC21B987AF500A28366 /* WARQRView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE18BA61B98779A00A28366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE18BB11B98779A00A28366 /* WARQRCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE18BAC1B98779A00A28366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE18B901B98779900A28366 /* WARQRCode */;
+			targetProxy = BCE18BAB1B98779A00A28366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE18B9E1B98779900A28366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE18B9F1B98779900A28366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE18BA31B98779900A28366 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE18BA41B98779900A28366 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE18BB21B98779A00A28366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCE18BB31B98779A00A28366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE18BB51B98779A00A28366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WARQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCE18BB61B98779A00A28366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WARQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCE18BB81B98779A00A28366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WARQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WARQRCode.app/WARQRCode";
+			};
+			name = Debug;
+		};
+		BCE18BB91B98779A00A28366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WARQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WARQRCode.app/WARQRCode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE18B8C1B98779900A28366 /* Build configuration list for PBXProject "WARQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE18BB21B98779A00A28366 /* Debug */,
+				BCE18BB31B98779A00A28366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE18BB41B98779A00A28366 /* Build configuration list for PBXNativeTarget "WARQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE18BB51B98779A00A28366 /* Debug */,
+				BCE18BB61B98779A00A28366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCE18BB71B98779A00A28366 /* Build configuration list for PBXNativeTarget "WARQRCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE18BB81B98779A00A28366 /* Debug */,
+				BCE18BB91B98779A00A28366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE18B891B98779900A28366 /* Project object */;
+}
