@@ -13,3 +13,7 @@ QR code using iOS SDK library
     {
         NSLog(@"didOutputMetadataString %@", qrString);
     }
+
+Based on tutorial by gabriel theodoropoulos 
+How To Scan QR Code Using AVFoundation Framework
+http://www.appcoda.com/qr-code-ios-programming-tutorial/
